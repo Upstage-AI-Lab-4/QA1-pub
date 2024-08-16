@@ -24,7 +24,7 @@
 
 - 주 언어 : Python
 - 버전 및 이슈관리 : 3.10
-- 협업 툴 :
+- 협업 툴 : notion, git, slack
 
 <br>
 
