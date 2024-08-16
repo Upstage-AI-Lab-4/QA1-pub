@@ -30,7 +30,7 @@
 
 ## 2. 채택한 개발 기술과 브랜치 전략
 
-### LangChain ~~
+### LangChain
 
 - PyPDFLoader
   - **PyPDFLoader**는 **LangChain** 프레임워크에서 제공하는 PyPDFLoader 모듈을 import하는 코드입니다. 이 모듈은 PDF 파일에서 텍스트 데이터를 추출하는데 사용됩니다.
