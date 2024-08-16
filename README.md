@@ -51,7 +51,7 @@
       3. 확장성: 대량의 데이터를 처리할 수 있는 기능을 갖추고 있어, 다양한 규모의 프로젝트에서 유용하게 사용될 수 있습니다.
       4. 통합 가능성: LangChain의 다른 모듈과 함께 사용하여 복잡한 자연어 처리 파이프라인을 구성할 수 있습니다.
    
-  - UpstageEmbeddings
+- UpstageEmbeddings
   - **UpstageEmbeddings**는 Upstage에서 제공하는 라이브러리입니다. Upstage는 한국어와 같은 저자원 언어에 특화된 AI 모델을 개발하는 회사로, UpstageEmbeddings는 이 회사의 임베딩 모델을 LangChain에서 사용할 수 있도록 지원합니다.
     <br>
     <br>
