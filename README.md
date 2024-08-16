@@ -34,6 +34,7 @@
 
 - PyPDFLoader
   - **PyPDFLoader**는 **LangChain** 프레임워크에서 제공하는 PyPDFLoader 모듈을 import하는 코드입니다. 이 모듈은 PDF 파일에서 텍스트 데이터를 추출하는데 사용됩니다.
+    <br>
     **PyPDFLoader의 주요 기능**
       1. PDF 문서 로딩: PyPDFLoader는 PDF 파일을 읽고, 그 안에 포함된 텍스트를 추출하여 사용할 수 있도록 변환합니다.
       2. 텍스트 추출: PDF 문서에서 페이지별로 텍스트를 효과적으로 추출할 수 있습니다. 이를 통해 문서의 내용을 쉽게 분석하거나 처리할 수 있습니다.
