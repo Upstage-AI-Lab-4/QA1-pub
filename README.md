@@ -204,30 +204,38 @@
 
 ### 팀장 : 박현애
 - **역할**
-    - 프로젝트를 진행하며 맡은 역할 작성
+    - 총괄/프로세스
+    - 자료 조사 및 데이터 수집
+    - read.md 및 PPT 제작
 - **기능**
-    - 프로젝트를 진행하며 개발한 기능 작성
+    - 클래스 기반 모듈 디자인
 <br>
 
 ### 팀원 1 : 박동재
 - **역할**
-    - 프로젝트를 진행하며 맡은 역할 작성
+    - RDBMS 설계/테스트
+    - 자료 조사 및 데이터 수집
+    - read.md 및 PPT 제작
 - **기능**
-    - 프로젝트를 진행하며 개발한 기능 작성
+    - 클래스 기반 모듈 디자인
 <br>
 
 ### 팀원 2 : 진주영
 - **역할**
-    - 프로젝트를 진행하며 맡은 역할 작성
+    - 기획 아이디어/PPT
+    - 자료 조사 및 데이터 수집
+    - read.md 및 PPT 제작
 - **기능**
-    - 프로젝트를 진행하며 개발한 기능 작성
+    - 클래스 기반 모듈 디자인
 <br>
 
 ### 팀원 3 : 김동호
 - **역할**
-    - 프로젝트를 진행하며 맡은 역할 작성
+    - Vector DB/Retrieval
+    - 자료 조사 및 데이터 수집
+    - read.md 및 PPT 제작
 - **기능**
-    - 프로젝트를 진행하며 개발한 기능 작성
+    - 클래스 기반 모듈 디자인
 
 ## 5. 개발 기간 및 작업 관리
 
@@ -239,34 +247,95 @@
 <br>
 
 ### 작업 관리
-<예시>
 
-- 아래와 같은 오류가 발생했습니다.
+- chromadb 패키지 오류는 아래와 같이 발생했습니다.
 
 ```python
-C:\Users\yong\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\_api\deprecation.py:117: LangChainDeprecationWarning: The class `langchain_community.llms.openai.OpenAI` was deprecated in langchain-community 0.0.10 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import OpenAI`.
-  warn_deprecated(
+error: subprocess-exited-with-error
+
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ?─> [30 lines of output]
+      Traceback (most recent call last):
+        File "D:\python_test_anaconda\new_firewall_mgmt_qa\venv_312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 353, in <module>
+          main()
+        File "D:\python_test_anaconda\new_firewall_mgmt_qa\venv_312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "D:\python_test_anaconda\new_firewall_mgmt_qa\venv_312\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 118, in get_requires_for_build_wheel
+          return hook(config_settings)
+                 ^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\build_meta.py", line 355, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=['wheel'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\build_meta.py", line 325, in _get_build_requires
+          self.run_setup()
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\build_meta.py", line 507, in run_setup
+          super(_BuildMetaLegacyBackend, self).run_setup(setup_script=setup_script)
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\build_meta.py", line 341, in run_setup
+          exec(code, locals())
+        File "<string>", line 90, in <module>
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-install-l7_69h25\zstandard_cd5b5a3f02a54e2ca4473fd6c9cd074f\setup_zstd.py", line 66, in get_c_extension
+          compiler.initialize()
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 253, in initialize
+          vc_env = _get_vc_env(plat_spec)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\msvc.py", line 233, in msvc14_get_vc_env
+          return _msvc14_get_vc_env(plat_spec)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\7040_64bit\AppData\Local\Temp\pip-build-env-h91i3ok5\overlay\Lib\site-packages\setuptools\msvc.py", line 190, in _msvc14_get_vc_env
+          raise distutils.errors.DistutilsPlatformError("Unable to find vcvarsall.bat")
+      distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+?─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+...
 ```
 
 ### 설명
 
-- langchain_community.llms.openai.OpenAI는 langchain-community 0.0.10에서 deprecate되었으며 0.2.0에서 제거될 예정입니다.
-- 업데이트된 버전의 클래스가 langchain-openai 패키지에 있으며 이것을 사용해야 합니다.
+- Python 3.12 버전인 경우 위와 같은 에러가 발생된다.
 
 
 ### 해결
 
-- 명령 프롬프트(또는 터미널)에서 다음 명령을 실행해 langchain-openai 패키지를 설치합니다.
+- 이를 해결하기 위해서는 2가지 방법이 있다.
+  1. Microsoft C++ Build Tools 설치
+  2. Python 3.10으로 낮추기
+
+
+- - -
+
+- Lnagchain 라이브러리에서 **create_history_aware_retrieval**, **create_retrieval_chain** 모듈 사용시 Import Error 발생, 오류는 아래와 같이 발생했습니다.
 
 ```python
-pip install -U langchain-openai
+No Module create_history_aware_retrieval
+
+No Module create_retrieval_chain
+
 ```
+
+### 설명
+
+- 버전 업데이트로 모듈 위치가 변경되어 모듈을 불러오지 못했다고 경고창이 뜨고 실행되지 않습니다.
+
+
+### 해결
 
 - 아래와 같이 import문 변경하면 해결됩니다.
+ 
 ```python
-from langchain_openai import OpenAI
-```
+from langchain.chains.history_aware_retriever import create_history_aware_retriever
 
+from langchain.chains.retrieval import create_retrieval_chain
+```
 
 <br>
 
