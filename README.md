@@ -346,5 +346,11 @@ from langchain.chains.retrieval import create_retrieval_chain
 
 ### 팀원 2
 프로젝트 후기 작성
+
+### 팀원 3
+프로젝트 후기 작성
+
+### 퇴근하는 라이언
+첫 프로젝트를 진행하면서 부족한 저를 끝까지 포기하지 않고 함께 완주해주신 팀원분들께 너무나 감사드립니다.
 <br>
 
