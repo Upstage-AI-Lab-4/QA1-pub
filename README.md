@@ -27,9 +27,9 @@
 
 | **팀장** | **팀원 1** | **팀원 2** | **팀원 3** |
 | :------: |  :------: | :------: | :------: |
-|[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 박현애](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 박동재](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 진주영](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 김동호](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> ](https://github.com/) |
+|[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 박현애](https://github.com/) |[<img src="https://i.namu.wiki/i/2mc7dK2HyCQ6ND9d-f3efu83yVZQz5TOONLOqDFPwU_tgc-yXIa-tnVb5Abkqg3fCP0v6kq6Oe9zpjtMBXLXtA.webp" height=150 width=150> <br/> 박동재](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 진주영](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> 김동호](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/156163982?v=4" height=150 width=150> <br/> ](https://github.com/) |
 </div>
-
+https://avatars.githubusercontent.com/u/156163982?v=4
 <br>
 
 ## 1. 개발 환경
