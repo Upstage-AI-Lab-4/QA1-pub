@@ -193,22 +193,13 @@
 ## 3. 프로젝트 구조
 ```
 
-project_root/
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── .env
-└── src/
-    ├── main.py
-    ├── config.py
-    ├── rag/
-    │   ├── document_loader.py
-    │   ├── embedding.py
-    │   └── chat_model.py
-    ├── utils/
-    │   └── ui_components.py
-    └── api/
-        └── upstage_api.py
+.
+├── config.py
+├── document_loader.py
+├── embedding.py
+├── chat_model.py
+├── ui_components.py
+└── main.py
 
 ```
 
