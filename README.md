@@ -185,16 +185,21 @@
 
 ## 3. 프로젝트 구조
 ```
+
 ├── README.md
 ├── .gitignore
-└── src
-     ├── App.py
-     ├── index.py
-     ├── api
-     │     └── GoogleAPI.jsx
-     └── styles
-           └── Globalstyled.jsx
-...
+├── requirements.txt
+└── src/
+    ├── main.py
+    ├── config.py
+    ├── components/
+    │   ├── document_loader.py
+    │   ├── embedding.py
+    │   └── chat_model.py
+    ├── utils/
+    │   └── ui_components.py
+    └── api/
+        └── upstage_api.py
 
 ```
 
@@ -341,8 +346,8 @@ from langchain.chains.retrieval import create_retrieval_chain
 
 ## 5. 프로젝트 후기
 
-### 팀원 1
-프로젝트 후기 작성
+### 운동하는 피치
+협업하는 경험을 통해 한층 더 성장할 수 있는 계기가 되었습니다. 
 
 ### 팀원 2
 프로젝트 후기 작성
