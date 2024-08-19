@@ -192,8 +192,10 @@
 
 ## 3. 프로젝트 구조
 ```
-
-.
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── .env
 ├── config.py
 ├── document_loader.py
 ├── embedding.py
