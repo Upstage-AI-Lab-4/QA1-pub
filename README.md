@@ -194,7 +194,6 @@
 ```
 ├── README.md
 ├── .gitignore
-├── requirements.txt
 ├── .env
 ├── config.py
 ├── document_loader.py
