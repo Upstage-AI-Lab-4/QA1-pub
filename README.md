@@ -2,6 +2,13 @@
 # 프로젝트 이름
 - 의료법 및 관련 판례 QA Engine
 <br>
+## 설치 후 실행 방법
+1. 이 저장소를 클론합니다.
+2. `pip install -r requirements.txt`를 실행하여 필요한 패키지를 설치합니다.
+3. `.env` 파일을 생성하고 필요한 환경 변수를 설정합니다.
+4. streamlit run src/main.py 명령어를 통해 실행합니다.
+   
+<br>
 
 ## 프로젝트 소개
 1. 필요성
@@ -186,13 +193,15 @@
 ## 3. 프로젝트 구조
 ```
 
+project_root/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
+├── .env
 └── src/
     ├── main.py
     ├── config.py
-    ├── components/
+    ├── rag/
     │   ├── document_loader.py
     │   ├── embedding.py
     │   └── chat_model.py
