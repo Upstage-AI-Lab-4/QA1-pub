@@ -350,7 +350,7 @@ from langchain.chains.retrieval import create_retrieval_chain
 ### 운동하는 피치
 협업하는 경험을 통해 한층 더 성장할 수 있는 계기가 되었습니다. 
 
-### 팀원 2
+### 연구하는 네오
 프로젝트 후기 작성
 
 ### 출근하는 프로도
